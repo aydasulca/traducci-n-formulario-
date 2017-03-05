@@ -12,3 +12,11 @@ function translate(){
   button.innerHTML = "Iniciar sesión";
 }
 translate();
+
+function mensaje(){
+  var email = document.getElementById("inputEmail").value;
+  var password = document.getElementById("inputPassword").value;
+document.getElementById("mostrarResultado").innerHTML = "Datos del formulario:<br>" +
+"El correo electrónico ingresado es:<br>"+ email +"<br>"+"La clave ingresada es:<br>"+
+password;
+}
